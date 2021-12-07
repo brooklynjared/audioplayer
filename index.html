@@ -16,33 +16,43 @@
     <link rel="stylesheet" href="audioplayer.css">
 
 </head>
-<body class="container-fluid">
+<body class="d-flex flex-column h-100">
+    
+    <main>
 
-    <div class="row text-center justify-content-center mt-5 border align-items-center">
-        <div class="display-6">Audio Player</div>
+        <div class="row text-center justify-content-center mt-5 align-items-center">
+            <div class="display-6">Audio Player</div>
 
-    </div>
-
-    <div class="row justify-content-center">
-
-        <div class="col-6 m-3 p-0">
-            <ul class="list-group m-0 p-0">
-                <li class="list-group-item d-flex justify-content-start align-items-center">
-                    <button class="btn play-btn"><i class="bi bi-play-fill"></i></button>
-                    <div class="track-title">Track 1</div>
-                </li>
-                <li class="list-group-item d-flex justify-content-start align-items-center">
-                    <button class="btn play-btn"><i class="bi bi-play-fill"></i></button>
-                    <div class="track-title">Track 2</div>
-                </li>
-                <li class="list-group-item d-flex justify-content-start align-items-center">
-                    <button class="btn play-btn"><i class="bi bi-play-fill"></i></button>
-                    <div class="track-title">Track 3</div>
-                </li>
-            </ul>
-            
         </div>
 
-    </div>
-</body>
+        <div class="row justify-content-center">
+
+            <div class="col-6 m-3 p-0">
+                <ul class="list-group m-0 p-0 shadow">
+                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                        <button class="btn play-btn"><i class="bi bi-play-fill"></i></button>
+                        <div class="track-title">Track 1</div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                        <button class="btn play-btn"><i class="bi bi-play-fill"></i></button>
+                        <div class="track-title">Track 2</div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                        <button class="btn play-btn"><i class="bi bi-play-fill"></i></button>
+                        <div class="track-title">Track 3</div>
+                    </li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer fixed-bottom mt-auto py-3 bg-light ">
+        <div class="container d-flex justify-content-center">
+          <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+    </body>
 </html>
